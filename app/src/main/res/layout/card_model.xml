@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="50dp"
+        android:foreground="@drawable/border"
+        android:background="@drawable/dark_horror_1280x720_wallpaper">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/_49999659b6f32637d57f0bfa47716fc"
+            />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/image_view"
+            android:layout_centerVertical="true"
+android:textColor="@color/white"
+            android:textSize="20dp"
+
+           />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
